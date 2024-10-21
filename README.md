@@ -27,7 +27,7 @@ At **[blog.avnishsingh.tech](https://blog.avnishsingh.tech)**, I focus on creati
 
 If you have feedback, suggestions, or want to discuss cybersecurity topics, I’d love to hear from you! Here’s how you can engage:
 
-- **Comments and Feedback**: Comment directly on the blog posts or reach out via [Mastodon](https://x.com/CybrAvnish).
+- **Comments and Feedback**: Comment directly on the blog posts or reach out via [Twitter](https://x.com/CybrAvnish).
 - **Suggest Topics**: Have a topic or tool you'd like covered? Feel free to reach out and suggest it!
 
 ## Contributing
