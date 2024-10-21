@@ -36,7 +36,7 @@ I welcome contributions! If you'd like to suggest edits or contribute a blog pos
 
 ### 1. Submit an Edit
 If you find an error in one of my posts or have a suggestion for improvement:
-- Reach out via [Twitter](https://x.com/CybrAvnish) or [email](contact@avnishsingh.tech) me directly with your suggested changes.
+- Reach out via [Twitter](https://x.com/CybrAvnish) or email(contact@avnishsingh.tech) me directly with your suggested changes.
 - I will review the suggestions and update the post if necessary.
 
 ### 2. Write a Blog Post
