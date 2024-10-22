@@ -63,20 +63,14 @@
 &lt;p&gt;Whether you&apos;re streaming a video, sending an email, or simply browsing the web, it&apos;s these underlying protocols that make the magic happen, allowing networks and devices to seamlessly communicate across the globe.&lt;/p&gt;
 &lt;p&gt;By understanding the most common network protocols, you&apos;ll gain a deeper appreciation of the complexities involved in our daily online interactions and why network engineers, web developers, and IT professionals work hard to ensure these systems stay robust and secure.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>Network Topologies: How Devices Are Connected</title><link>https://blog.avnishsingh.tech/posts/network-topology/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/network-topology/</guid><description>A guide to understanding different types of network topologies, their advantages, and disadvantages. Learn how devices communicate in various network configurations.</description><pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Network Topologies: How Devices Are Connected 🖇️🌍&lt;/h1&gt;
 &lt;p&gt;When building a network, one of the most crucial decisions is determining how to connect the devices physically and logically. This configuration is called &lt;strong&gt;network topology&lt;/strong&gt;. Think of it like a blueprint or roadmap that dictates how data moves between devices and the way they communicate with each other.&lt;/p&gt;
@@ -195,21 +189,15 @@ async&amp;gt;
 &lt;li&gt;&lt;strong&gt;Mesh topology&lt;/strong&gt; is the go-to choice for organizations that need redundancy and high uptime, but be prepared for higher costs and complexity.&lt;/li&gt;
 &lt;li&gt;A &lt;strong&gt;hybrid topology&lt;/strong&gt; provides flexibility, allowing you to tailor different parts of the network to suit various needs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;By understanding how devices are connected in different topologies, you can ensure that your network performs efficiently, remains reliable, and is scalable enough to handle future growth.&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;By understanding how devices are connected in different topologies, you can ensure that your network performs efficiently, remains reliable, and is scalable enough to handle future growth.
+&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>IP Addresses: What They Are and Why They Matter</title><link>https://blog.avnishsingh.tech/posts/what-are-the-ip-address/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/what-are-the-ip-address/</guid><description>A clear and straightforward guide to understanding IP addresses, their types, classes, and why they are crucial for internet communication.</description><pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;IP Addresses: What They Are and Why They Matter 🧭🌐&lt;/h1&gt;
 &lt;p&gt;Every device that connects to the internet has an &lt;strong&gt;IP address&lt;/strong&gt;—a unique identifier that allows data to travel between devices. Much like your home address ensures that mail reaches you, an &lt;strong&gt;IP address (Internet Protocol address)&lt;/strong&gt; ensures that data, whether it&apos;s a web page or an email, gets to the right device. Without IP addresses, our devices wouldn’t be able to communicate with each other across the internet.&lt;/p&gt;
@@ -284,20 +272,14 @@ async&amp;gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;IP addresses are the backbone of internet communication. Whether it&apos;s your computer, smartphone, or even a smart home device, every internet-connected device relies on an IP address to send and receive data. Understanding the differences between &lt;strong&gt;IPv4&lt;/strong&gt; and &lt;strong&gt;IPv6&lt;/strong&gt;, the &lt;strong&gt;classes of IP addresses&lt;/strong&gt;, and the distinction between &lt;strong&gt;dynamic and static IPs&lt;/strong&gt; helps demystify how the internet works.&lt;/p&gt;
 &lt;p&gt;With this knowledge, you can better understand how devices communicate, troubleshoot network issues, or even manage a home or business network. IP addresses may be just numbers, but they are the key to keeping the digital world connected.&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>The OSI Model: Understanding How Networks Communicate</title><link>https://blog.avnishsingh.tech/posts/the-osi-model/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/the-osi-model/</guid><description>A detailed and beginner-friendly explanation of the OSI Model, breaking down how network protocols interact across seven distinct layers to facilitate communication between devices.</description><pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The OSI Model: Understanding How Networks Communicate 📡📊&lt;/h1&gt;
 &lt;p&gt;If you’ve ever wondered how your messages, files, or emails travel from one device to another across the internet, the answer lies in how networks communicate. At the core of this process is the &lt;strong&gt;OSI Model&lt;/strong&gt;—a fundamental framework that helps explain how data moves across networks. Even though the OSI Model might sound technical, it plays a crucial role in how the internet and all other networks function smoothly.&lt;/p&gt;
@@ -335,20 +317,14 @@ async&amp;gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;The OSI Model is an essential concept for anyone interested in how networks function. By dividing the communication process into seven distinct layers, the model simplifies the complexity of how data is transmitted across the internet and other networks. Understanding the OSI Model can help you become a more informed user of technology, enabling you to troubleshoot issues and grasp the inner workings of the digital world.&lt;/p&gt;
 &lt;p&gt;Whether you&apos;re just getting started in networking or looking to deepen your understanding, the OSI Model provides a solid foundation for exploring how modern networks communicate. Each layer plays a unique role, and together, they ensure that our devices can talk to each other, allowing us to stay connected in this digital age.&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>Introduction to Computer Networking: The Basics You Need to Know</title><link>https://blog.avnishsingh.tech/posts/introduction-of-computer-networking/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/introduction-of-computer-networking/</guid><description>A beginner-friendly guide to understanding computer networks, their types, and why networking is essential in today&apos;s digital world.</description><pubDate>Sat, 12 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Introduction to Computer Networking: The Basics You Need to Know 🌐✨&lt;/h1&gt;
 &lt;p&gt;In today&apos;s hyper-connected digital world, computer networking forms the backbone of nearly every online activity. Whether you&apos;re sending emails, streaming videos, or collaborating with colleagues across the globe, networks make these interactions possible. But what exactly is a computer network, and why is it so critical to modern life?&lt;/p&gt;
@@ -380,21 +356,15 @@ async&amp;gt;
 &lt;p&gt;Moreover, advancements in networking technologies, like 5G and Wi-Fi 6, are further pushing the boundaries of speed, connectivity, and efficiency, paving the way for innovations such as smart cities and autonomous vehicles.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Computer networking is the invisible force powering much of our modern digital world. From personal devices to global enterprises, the ability to connect and communicate efficiently is what keeps our society functioning. Whether you&apos;re a tech enthusiast, a professional in the field, or just curious about how things work, understanding the basics of computer networking is essential in navigating today’s digital landscape.&lt;/p&gt;
-&lt;p&gt;By learning about the different types of networks, how they function, and their role in modern technology, you&apos;ll have a solid foundation to explore more advanced concepts and applications in this fascinating field.&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;By learning about the different types of networks, how they function, and their role in modern technology, you&apos;ll have a solid foundation to explore more advanced concepts and applications in this fascinating field.
+&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>Git vs GitHub: Understanding the Dynamic Duo of Version Control</title><link>https://blog.avnishsingh.tech/posts/git-and-github-overview/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/git-and-github-overview/</guid><description>A comprehensive comparison between Git and GitHub, explaining how they work together to manage version control in software development. Explore their key differences, features, and collaboration capabilities.</description><pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Git vs GitHub: Understanding the Dynamic Duo of Version Control 🧑‍💻✨&lt;/h1&gt;
 &lt;p&gt;If you’re a developer (or an aspiring one), you’ve probably heard of Git and GitHub. And if you’re just starting out, you might be wondering: Aren’t they the same thing? Spoiler alert: they’re not! Though they work hand-in-hand, each has its own unique role in the world of version control. Let’s dive into what makes Git and GitHub such a power couple in modern software development! 👩‍💻👨‍💻💻&lt;/p&gt;
@@ -460,20 +430,14 @@ After reviewing the contributions, you can &lt;strong&gt;merge&lt;/strong&gt; th
 &lt;h2&gt;Final Thoughts 💭&lt;/h2&gt;
 &lt;p&gt;Git and GitHub are indispensable tools for developers worldwide. Git helps you track, experiment, and manage the history of your codebase, while GitHub allows you to share your work, collaborate with others, and contribute to the open-source community. Together, they create a powerful ecosystem that makes software development faster, more efficient, and collaborative.&lt;/p&gt;
 &lt;p&gt;Whether you&apos;re just starting your coding journey or looking to take your skills to the next level, learning Git and GitHub is one of the best investments you can make in your tech career. So, are you ready to start your version control journey? The world of development is waiting for you! 🚀&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>The Importance of Two-Factor Authentication: Your Key to Enhanced Security</title><link>https://blog.avnishsingh.tech/posts/two-factor-authantication/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/two-factor-authantication/</guid><description>A humorous yet informative look at Two-Factor Authentication (2FA) and why it&apos;s essential for securing your online accounts. Discover how 2FA works and how to set it up to protect yourself from cyber threats.</description><pubDate>Sat, 05 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Importance of Two-Factor Authentication: Your Key to Enhanced Security 🔐💼😂&lt;/h1&gt;
 &lt;p&gt;Let’s face it: our online lives are under attack. Whether it’s from hackers, data breaches, or that one nosy friend who always &quot;forgets&quot; their Netflix password, the threats are real. Enter Two-Factor Authentication (2FA)—your not-so-secret weapon to keep your digital world safe. It’s like adding an extra lock on your front door but for your email, bank, and social media accounts. 🏡🔑&lt;/p&gt;
@@ -522,20 +486,14 @@ async&amp;gt;
 &lt;h2&gt;Wrapping Up: Why You Need to Set Up 2FA ASAP&lt;/h2&gt;
 &lt;p&gt;If you haven’t turned on 2FA yet, what are you waiting for? It’s quick, it’s easy, and it’s your best defense against hackers. Don’t wait until you’re the victim of a phishing scam or a password breach—lock things down now.&lt;/p&gt;
 &lt;p&gt;In short: Two-factor authentication is your personal bouncer, ninja, and bodyguard for your online accounts. Protect your online world—enable 2FA today and sleep easier knowing that your data isn’t just a password away from getting hacked. 🔐💥&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>Cybersecurity: A Comprehensive Guide for Non-Techies</title><link>https://blog.avnishsingh.tech/posts/cybersecurity-for-non-techies/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/cybersecurity-for-non-techies/</guid><description>Understanding the basics of cybersecurity for everyone: straightforward introduction to cybersecurity for non-techies, covering essential concepts, common threats, and practical tips to protect personal information online. Empower yourself with knowledge to navigate the digital world safely!</description><pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Understanding Cybersecurity: A Comprehensive Guide for Non-Techies&lt;/h1&gt;
 &lt;p&gt;In today&apos;s digital age, cybersecurity is more important than ever. With increasing reliance on technology for personal and professional purposes, understanding cybersecurity can empower everyone—regardless of technical background—to protect themselves online. This guide aims to demystify essential cybersecurity concepts and provide practical insights to navigate the online world safely.&lt;/p&gt;
@@ -686,20 +644,14 @@ async&amp;gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Understanding cybersecurity is essential for everyone in today&apos;s digital landscape. By familiarizing yourself with common threats and implementing practical security measures, you can protect your personal information and enjoy a safer online experience. Staying informed and vigilant is your best defense against cyber threats. Remember, cybersecurity is not just the responsibility of tech experts; it requires the participation of everyone in the digital space.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>My Journey into Cybersecurity: From Curiosity to Ethical Hacking</title><link>https://blog.avnishsingh.tech/posts/my-cybersecurity-journy/</link><guid isPermaLink="true">https://blog.avnishsingh.tech/posts/my-cybersecurity-journy/</guid><description>An in-depth look into how I started my journey into cybersecurity and ethical hacking, the challenges I faced, and the skills I developed.</description><pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;My Journey into Cybersecurity: From Curiosity to Ethical Hacking&lt;/h1&gt;
 &lt;h3&gt;How It All Started&lt;/h3&gt;
@@ -779,19 +731,13 @@ Google Cybersecurity Professional Certificate** certification from &lt;strong&gt
 &lt;p&gt;I hope this blog post inspires you to explore the fascinating world of ethical hacking and cybersecurity. Stay tuned for more updates as I continue my journey!&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Thank you for reading! Feel free to share your thoughts or reach out if you have any questions or want to discuss cybersecurity topics.&lt;/p&gt;
-&lt;p&gt;&amp;lt;script src=&quot;https://giscus.app/client.js&quot;
-data-repo=&quot;CybrAvnish/blog&quot;
-data-repo-id=&quot;R_kgDOM6gZcg&quot;
-data-category=&quot;Announcements&quot;
-data-category-id=&quot;DIC_kwDOM6gZcs4CjiA0&quot;
-data-mapping=&quot;pathname&quot;
-data-strict=&quot;0&quot;
-data-reactions-enabled=&quot;1&quot;
-data-emit-metadata=&quot;0&quot;
-data-input-position=&quot;bottom&quot;
-data-theme=&quot;preferred_color_scheme&quot;
-data-lang=&quot;en&quot;
-crossorigin=&quot;anonymous&quot;
-async&amp;gt;
+&lt;p&gt;&amp;lt;div id=&quot;waline&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;script type=&quot;module&quot;&amp;gt;
+import { init } from &apos;https://unpkg.com/@waline/client@v3/dist/waline.js&apos;;&lt;/p&gt;
+&lt;p&gt;init({
+el: &apos;#waline&apos;,
+serverURL: &apos;https://blog-comment-sand.vercel.app/&apos;,&lt;br /&gt;
+lang: &apos;en&apos;,
+});
 &amp;lt;/script&amp;gt;&lt;/p&gt;
 </content:encoded></item></channel></rss>
